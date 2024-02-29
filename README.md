@@ -19,11 +19,7 @@ rsync -ac --delete --exclude=".*/" . /tmp/backup
 
   rsync -a --delete /home/joos/ /tmp/backup
 
-if [ "$?" -eq 0 ]; then
-        logger "Backup successfully"
-else    logger "Backup failed"
-fi
+![image](https://github.com/AnastasiyaEvsseva/copy/assets/151757353/a193cef2-fdaa-4716-8e23-d6898821c6df)
 
-0 * * * * /home/joos/rsync.sh
 
 ![резервное копирование 2ъ](https://github.com/AnastasiyaEvsseva/copy/assets/151757353/977c885d-f57e-493f-8689-d91de5036a5f)
