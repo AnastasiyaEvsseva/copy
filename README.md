@@ -17,7 +17,6 @@ rsync -ac --delete --exclude=".*/" . /tmp/backup
 4. Резервная копия размещается локально, в директории /tmp/backup
 5. На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
-  rsync -a --delete /home/joos/ /tmp/backup
 
 ![image](https://github.com/AnastasiyaEvsseva/copy/assets/151757353/a193cef2-fdaa-4716-8e23-d6898821c6df)
 
